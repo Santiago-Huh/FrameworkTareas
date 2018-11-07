@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17fd2246-a960-4114-b518-25eeeae2eafd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/layouts/default/js/confirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/categorias/editar.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/default/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/default/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/categoriasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/categoriasController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/categoriasModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/categoriasModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/tareaModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/tareaModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/categorias/agregar.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/views/categorias/agregar.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/categorias/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/views/categorias/index.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/default/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/default/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/default/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/tareas/agregar.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/views/tareas/agregar.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/tareas/editar.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/views/tareas/editar.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/tareas/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/views/tareas/index.phtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +71,7 @@
     <session id="1388186294">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.30" value="1" />
@@ -76,14 +84,14 @@
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="js" value="1" />
-          <entry key="php" value="27" />
-          <entry key="phtml" value="15" />
+          <entry key="php" value="33" />
+          <entry key="phtml" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="42" />
+          <entry key="PHP" value="71" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -91,68 +99,22 @@
         <counts>
           <entry key="gitignore" value="27" />
           <entry key="js" value="85" />
-          <entry key="php" value="392" />
-          <entry key="phtml" value="203" />
+          <entry key="php" value="1455" />
+          <entry key="phtml" value="849" />
           <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="85" />
-          <entry key="PHP" value="595" />
+          <entry key="PHP" value="2304" />
           <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tareas/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="60" column="110" lean-forward="true" selection-start-line="60" selection-start-column="110" selection-end-line="60" selection-end-column="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/layouts/default/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="78" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tareas/agregar.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/categoriasController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layouts/default/js/confirm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -169,23 +131,25 @@
         <option value="$PROJECT_DIR$/aplication/Request.php" />
         <option value="$PROJECT_DIR$/aplication/Bootstrap.php" />
         <option value="$PROJECT_DIR$/aplication/Config.php" />
-        <option value="$PROJECT_DIR$/models/categoriasModel.php" />
         <option value="$PROJECT_DIR$/models/tareaModel.php" />
         <option value="$PROJECT_DIR$/aplication/Controller.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/views/tareas/agregar.phtml" />
         <option value="$PROJECT_DIR$/aplication/View.php" />
         <option value="$PROJECT_DIR$/controllers/tareasController.php" />
-        <option value="$PROJECT_DIR$/views/tareas/editar.phtml" />
         <option value="$PROJECT_DIR$/views/categorias/index.php" />
-        <option value="$PROJECT_DIR$/controllers/categoriasController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/views/categorias/index.phtml" />
-        <option value="$PROJECT_DIR$/views/categorias/agregar.phtml" />
         <option value="$PROJECT_DIR$/views/layouts/default/js/confirm.js" />
-        <option value="$PROJECT_DIR$/views/tareas/index.phtml" />
-        <option value="$PROJECT_DIR$/views/layouts/default/header.php" />
         <option value="$PROJECT_DIR$/views/layouts/default/footer.php" />
+        <option value="$PROJECT_DIR$/views/categorias/agregar.phtml" />
+        <option value="$PROJECT_DIR$/models/categoriasModel.php" />
+        <option value="$PROJECT_DIR$/controllers/categoriasController.php" />
+        <option value="$PROJECT_DIR$/views/layouts/default/header.php" />
+        <option value="$PROJECT_DIR$/views/tareas/index2.phtml" />
+        <option value="$PROJECT_DIR$/views/categorias/editar.phtml" />
+        <option value="$PROJECT_DIR$/views/tareas/agregar.phtml" />
+        <option value="$PROJECT_DIR$/views/tareas/editar.phtml" />
+        <option value="$PROJECT_DIR$/views/categorias/index.phtml" />
+        <option value="$PROJECT_DIR$/views/tareas/index.phtml" />
       </list>
     </option>
   </component>
@@ -196,9 +160,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="745" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -215,49 +180,6 @@
             <path>
               <item name="practica5" type="b2602c69:ProjectViewProjectNode" />
               <item name="practica5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica5" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica5" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica5" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="categorias" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica5" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica5" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica5" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica5" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="tareas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,12 +230,12 @@
       <workItem from="1541461139869" duration="2141000" />
       <workItem from="1541506221568" duration="3333000" />
       <workItem from="1541515734937" duration="824000" />
-      <workItem from="1541516575414" duration="3272000" />
+      <workItem from="1541516575414" duration="15528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53345000" />
+    <option name="totallyTimeSpent" value="65601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,11 +247,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2602118" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18123667" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -405,27 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/tareas/editar.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/tareasController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/tareaModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aplication/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -443,52 +343,10 @@
     <entry file="file://$PROJECT_DIR$/aplication/Model.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/categoriasModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/categorias/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/categorias/agregar.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/tareas/agregar.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/tareas/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="60" column="110" lean-forward="true" selection-start-line="60" selection-start-column="110" selection-end-line="60" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/default/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -499,17 +357,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/categoriasController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/default/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="78" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/tareasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tareaModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/categoriasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="55" column="122" selection-start-line="55" selection-start-column="122" selection-end-line="55" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/categoriasModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/categorias/agregar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/default/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="87" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
+          <folding>
+            <element signature="e#487#533#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tareas/index2.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/categorias/editar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tareas/agregar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tareas/editar.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/categorias/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tareas/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
         </state>
       </provider>
     </entry>

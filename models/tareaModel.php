@@ -29,7 +29,7 @@ class TareaModel extends AppModel
     public function guardar($datos = array()){
         $consulta = $this->_db->prepare(
             "INSERT INTO tareas (nombre, descripcion, fecha, prioridad, categoria_id) 
-                        values (:nombre, :descripcion, :fecha, :prioridad, :categoria_id)"
+                        VALUES (:nombre, :descripcion, :fecha, :prioridad, :categoria_id)"
         );
 
         $consulta->bindParam(":nombre", $datos["nombre"]);
